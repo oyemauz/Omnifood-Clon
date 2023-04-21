@@ -1,0 +1,48 @@
+/* ******************************************* */
+/* ********* below Width 1344px for small Laptops*/
+/* ******************************************* */
+
+@media (max-width: 83em) {
+  .hero {
+    max-width: 1200px;
+  }
+
+  .hero_heading {
+    font-size: 3rem;
+  }
+
+  .gallery_images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .testimonial_container h1 {
+    font-size: 3.4rem;
+  }
+}
+
+/* ******************************************* */
+/* ********* below Width 1344px for small Laptops */
+/* ******************************************* */
+
+@media (max-width: 1250px) {
+  html {
+    font-size: 15px;
+  }
+
+  .hero {
+    column-gap: 3.4rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero {
+    column-gap: 5.4rem;
+  }
+
+  .nav__header {
+    padding: 2.6rem;
+  }
+  .btn {
+    padding: 0.8rem 1.4rem;
+  }
+}
